@@ -82,7 +82,27 @@
 
 
 <!-- <style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><style type="text/css">chat-view .cls-1,[data-is="chat-view"] .cls-1{opacity:0.6;} chat-view .cls-2,[data-is="chat-view"] .cls-2{fill:#424242;}</style><style type="text/css" id="qual_style-dri"></style><style type="text/css" id="qual_style-dee"></style> -->
-</head>
+
+     <div class = tictactowBox>
+         <p id = tictactowParagraph>Tic Tac Tow <strong>BOX</strong></p>    
+           <ul>
+             <li>X
+             <li>
+             <li>O
+
+             <li>
+             <li>X
+             <li>O
+
+             <li>X
+             <li>O
+             <li>
+           </ul>
+
+     </div>
+    
+    
+    </head>
   <body class="page-homepage" data-gr-c-s-loaded="true"><header class="header header--clone header--unstick" dir="ltr">
   <div class="header__navbar">
     <div class="header__navbar--toggle">
@@ -1019,6 +1039,25 @@ function hideChatWindow(a){a.preventDefault();var b=document.querySelector("#cha
     <!-- <script type="text/javascript" id="">window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;customBotTrackingId1&&(ga("create",customBotTrackingId1,"auto","customBotGaTracker1"),ga("customBotGaTracker1.send",{hitType:"event",eventCategory:"Chatbot",eventAction:"Chatbot Loaded",nonInteraction:!0}));customBotTrackingId2&&(ga("create",customBotTrackingId2,"auto","customBotGaTracker2"),ga("customBotGaTracker2.send",{hitType:"event",eventCategory:"Chatbot",eventAction:"Chatbot Loaded",nonInteraction:!0}));
 ga("create",rupertBotTrackingId,"auto","rupertBotGaTracker");ga("rupertBotGaTracker.send",{hitType:"event",eventCategory:"Chatbot",eventAction:"Chatbot Loaded",nonInteraction:!0});</script> -->
 
+
+     <div class = tictactowBox>
+         <p id = tictactowParagraph>Tic Tac Tow <strong>BOX</strong></p>    
+           <ul>
+             <li>X
+             <li>
+             <li>O
+
+             <li>
+             <li>X
+             <li>O
+
+             <li>X
+             <li>O
+             <li>
+           </ul>
+
+     </div>
+          
      <style>
        #chat {
             position: fixed;
@@ -1198,8 +1237,38 @@ ga("create",rupertBotTrackingId,"auto","rupertBotGaTracker");ga("rupertBotGaTrac
             transform: translateX(200px) translateY(26px) scale(1.5, 1.5);
             fill: white;
         }
+   
+     .tictactowBox {
+        width: 100%;
+        border: 1px solid #008EF9;
+     }
+        
+     #tictactowParagraph {
+        color: lightblue;
+        font: bold italic 100px serif;
+     }
+        
+     #tictactowParagraph > ul{
+         width: 300px;
+         height: 300px;
+     }
+
+     #tictactowParagraph > ul > li{
+         width: 90px;
+         height: 90px;
+         margin: 5px;
+         float:left;
+         font-size: 80px;
+         font-family: sans-serif;
+         text-align: center;
+         list-style: none;
+         background-color: lightblue;
+     }
+
+            
     </style>
     <div id="ads"></div>
     <script src="app.js"></script>
+      
   </body>
 </html>
