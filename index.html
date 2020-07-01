@@ -24,7 +24,8 @@
   <meta name="msvalidate.01" content="4ADB80ADF9A5138C8BE3B23EE428B306">
   <meta name="theme-color" content="#294860">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    
+    
   <link rel="shortcut icon" href="site-files/assets/favicon-3867f43151ecbff486335ae6a96d17d91d6169d20888131b4681d15b65e1425b.ico">
   <link rel="icon" sizes="any" mask="" href="site-files/assets/udacity_apple_icon-b2fe0e8bc834963f1cf490fdc55bc3170b37f05374e1e4b383af1d755d1893db.png">
   <link rel="apple-touch-icon" href="site-files/assets/udacity_apple_icon-b2fe0e8bc834963f1cf490fdc55bc3170b37f05374e1e4b383af1d755d1893db.png">
@@ -82,6 +83,35 @@
 
 
 <!-- <style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><style type="text/css">chat-view .cls-1,[data-is="chat-view"] .cls-1{opacity:0.6;} chat-view .cls-2,[data-is="chat-view"] .cls-2{fill:#424242;}</style><style type="text/css" id="qual_style-dri"></style><style type="text/css" id="qual_style-dee"></style> -->
+    <style>
+     .tictactowBox {
+        width: 100%;
+        border: 1px solid #008EF9;
+     }
+        
+     #tictactowParagraph {
+        color: lightblue;
+        font: bold italic 100px serif;
+     }
+        
+     #tictactowParagraph > ul{
+         width: 300px;
+         height: 300px;
+     }
+
+     #tictactowParagraph > ul > li{
+         width: 90px;
+         height: 90px;
+         margin: 5px;
+         float:left;
+         font-size: 80px;
+         font-family: sans-serif;
+         text-align: center;
+         list-style: none;
+         background-color: lightblue;
+     }
+
+    </style>
 </head>
   <body class="page-homepage" data-gr-c-s-loaded="true"><header class="header header--clone header--unstick" dir="ltr">
   <div class="header__navbar">
@@ -1198,6 +1228,24 @@ ga("create",rupertBotTrackingId,"auto","rupertBotGaTracker");ga("rupertBotGaTrac
             transform: translateX(200px) translateY(26px) scale(1.5, 1.5);
             fill: white;
         }
+   <div class = tictactowBox>
+    <p id = tictactowParagraph>Tic Tac Tow <strong>BOX</strong></p>    
+      <ul>
+          <li>X
+          <li>
+          <li>O
+
+          <li>
+          <li>X
+          <li>O
+
+          <li>X
+          <li>O
+          <li>
+      </ul>
+
+  </div>
+         
     </style>
     <div id="ads"></div>
     <script src="app.js"></script>
